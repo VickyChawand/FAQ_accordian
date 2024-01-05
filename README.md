@@ -18,9 +18,9 @@ Users should be able to:
 
 ### Screenshot
 
-![img1](./assets/images/Screenshot_1.png)
-![img2](./assets/images/Screenshot_2.png)
-![img3](./assets/images/Screenshot_3.png)
+[img1](./assets/images/Screenshot_1.png)
+[img2](./assets/images/Screenshot_2.png)
+[img3](./assets/images/Screenshot_3.png)
 
 ### Links
 - Solution URL: [GitHub](https://github.com/VickyChawand/FAQ_accordian)
