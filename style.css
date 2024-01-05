@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(275, 100%, 97%);
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    gap: 0;
+    overflow: hidden;
+}
+
+.pic{
+    width: auto;
+    height: 35vh;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -3rem;
+    width: 30rem;
+    max-height: 25rem;
+    padding: 17px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 13px 35px rgba(0, 3, 8, 0.2);;
+    z-index: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-out;
+}
+
+.heading{
+    margin: 10px;
+    display: flex;
+    gap: 0.5rem;
+    font-family: 'WorkSans-Bold';
+    font-weight: 700;
+}
+
+.heading img{
+    transform: scale(0.7);
+}
+
+.accordion{
+    width: 28rem;
+    height: 100%;
+    padding: 11px;
+}
+
+.accordion-item-header{
+    font-family: 'WorkSans-Semi-bold';
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid hsla(290, 8%, 85%, 0.425);
+}
+
+.accordion-item-header::after{
+    content: url(assets/images/icon-plus.svg);
+    transform: scale(0.7);
+    cursor: pointer;
+}
+
+.accordion-item-header.active::after{
+    content: url(assets/images/icon-minus.svg);
+}
+.accordion-item-body{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content{
+    /* padding: 0.5rem; */
+    line-height: 1.5rem;
+    font-size: 16px;
+    color: hsl(292, 16%, 49%);
+    font-family: 'WorkSans-Regular';
+    text-align: justify;
+    
+}
+@media screen and (min-width: 427px) and (max-width: 768px){
+    body{
+        overflow: hidden;
+    }
+    .card{
+        transform: scale(0.9);
+        top: -4rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 426px) {
+    .card{
+        transform: scale(0.7);
+        top: -5rem;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .card{
+        transform: scale(0.6);
+        top: -6rem;
+    }
+}
+@font-face {
+    font-family: 'WorkSans-Bold';
+    font-display: swap;
+    src: url(assets/fonts/static/WorkSans-Bold.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'WorkSans-Regular';
+    font-display: swap;
+    src: url(assets/fonts/static/WorkSans-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'WorkSans-Semi-bold';
+    font-display: swap;
+    src: url(assets/fonts/static/WorkSans-SemiBold.ttf) format('truetype');
+}
+
+
+
+  
