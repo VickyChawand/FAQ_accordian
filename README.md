@@ -18,12 +18,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/Screenshot_1.png)
+![](./assets/images/Screenshot_2.png)
+![](./assets/images/Screenshot_3.png)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/VickyChawand/FAQ_accordian)
+- Live Site URL: [FAQs](https://vickychawand.github.io/FAQ_accordian/)
 
 ### Built with
 
